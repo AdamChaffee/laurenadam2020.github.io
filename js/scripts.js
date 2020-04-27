@@ -184,10 +184,10 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Lauren and Adam's Wedding",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('Nov 7, 2020 15:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
@@ -197,10 +197,10 @@ $(document).ready(function () {
             end: new Date('Nov 29, 2017 00:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Alta Vista Country Club, Placentia, CA',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "We can't wait to see you on our big day. For any questions, please contact Rose Law at (714) 398-3038."
         }
     });
 
@@ -241,7 +241,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
+    var location = {lat: 33.877034, lng: -117.852851};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
