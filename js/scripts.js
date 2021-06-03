@@ -187,14 +187,14 @@ $(document).ready(function () {
             title: "Lauren and Adam's Wedding",
 
             // Event start date
-            start: new Date('Nov 7, 2020 15:00'),
+            start: new Date('Oct 23, 2021 16:30'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('Oct 23, 2021 11:30'),
 
             // Event Address
             address: 'Alta Vista Country Club, Placentia, CA',
@@ -218,7 +218,7 @@ $(document).ready(function () {
             && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbzUqz44wOat0DiGjRV1gUnRf4HRqlRARWggjvHKWvqniP7eVDG-/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbyJeKwrcX7AHQIfUdKDoEXqb9fPAQgqxg78gN-vby48iMv8p2k6XPgGbJ4yaTtnZt8oUw/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
